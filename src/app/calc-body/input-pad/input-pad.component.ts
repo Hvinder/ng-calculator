@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { PwaService } from '../../pwa.service';
 
 @Component({
   selector: 'app-input-pad',
@@ -12,9 +13,15 @@ export class InputPadComponent implements OnInit {
 
   expression = '';
 
-  constructor() { }
+  constructor(public pwaService: PwaService) { }
 
   ngOnInit() {
+  }
+
+  installPwa(): void {
+    if (this.pwaService.promptEvent) {
+      this.pwaService.promptEvent.prompt();
+    }
   }
 
   buttonClick(value: number | string): void {
