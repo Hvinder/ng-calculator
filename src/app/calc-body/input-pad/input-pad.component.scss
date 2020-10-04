@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+
+.btn-dark {
+    // background: $background-color;
+    background: $result-background-color;
+    color: $primary-color;
+}
+.btn {
+    width: 25%;
+    height: 10vh;
+    // border: 1px solid $border-color;
+    border-radius: 0;
+}
+.input-pad {
+    border-top: 1px solid;
+}
+.symbol {
+    color: $secondary-color !important;
+}

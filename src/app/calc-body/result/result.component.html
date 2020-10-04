@@ -1,0 +1,17 @@
+<div class="result row">
+  <div class="history">
+    <div
+      class="history-item"
+      *ngFor="let savedExpression of savedExpressions; let i = index"
+      [ngStyle]="{ bottom: i * 20 + 'px' }"
+    >
+      <h4>
+        {{ savedExpression }}
+      </h4>
+    </div>
+  </div>
+  <div class="calculations">
+    <h3><span style="visibility: hidden;">> </span>{{ expression }}</h3>
+    <h1>= {{ result }}</h1>
+  </div>
+</div>

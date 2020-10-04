@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.result {
+    background: $result-background-color;
+    color: $secondary-color;
+    height: 50vh;
+    text-align: end;
+    padding-right: 10%;
+}
+.history {
+    height: 35vh;
+    position: relative;
+    opacity: 70%;
+}
+.history-item {
+    position: absolute;
+    right: 0;
+}
