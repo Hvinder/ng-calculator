@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1601831581137,
+  "timestamp": 1601833984793,
   "index": "https://hvinder.github.io/ng-calculator/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://hvinder.github.io/ng-calculator/favicon.ico",
         "https://hvinder.github.io/ng-calculator/index.html",
-        "https://hvinder.github.io/ng-calculator/main-es2015.c8d3442be2bc15f3acc2.js",
-        "https://hvinder.github.io/ng-calculator/main-es5.29371065fca20c47c04c.js",
+        "https://hvinder.github.io/ng-calculator/main-es2015.745e39593d71c1e6c3c8.js",
+        "https://hvinder.github.io/ng-calculator/main-es5.32851ba934ef37d1c82c.js",
         "https://hvinder.github.io/ng-calculator/polyfills-es2015.79e43f7af93a762d3187.js",
         "https://hvinder.github.io/ng-calculator/polyfills-es5.406b580a8466633afc79.js",
         "https://hvinder.github.io/ng-calculator/runtime-es2015.3f3fc55b246d2a4b8254.js",
@@ -48,9 +48,9 @@
     "https://hvinder.github.io/ng-calculator/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://hvinder.github.io/ng-calculator/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://hvinder.github.io/ng-calculator/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://hvinder.github.io/ng-calculator/index.html": "4f7376763fd58132faea32dede5b4868cb8379ab",
-    "https://hvinder.github.io/ng-calculator/main-es2015.c8d3442be2bc15f3acc2.js": "7652e1e68256c34d2d9caff9b0955b9234f77169",
-    "https://hvinder.github.io/ng-calculator/main-es5.29371065fca20c47c04c.js": "a24f19efc0b1f3d166b852e5a8ffe35b73dd03c0",
+    "https://hvinder.github.io/ng-calculator/index.html": "0ad5c0eab6d4d4a9fa5d511a7c8fd8ba934e4849",
+    "https://hvinder.github.io/ng-calculator/main-es2015.745e39593d71c1e6c3c8.js": "772dc7433718888b20521b047dc42279045c62a1",
+    "https://hvinder.github.io/ng-calculator/main-es5.32851ba934ef37d1c82c.js": "f72c668c37dc60e124af94a9fb25ff3d6264366e",
     "https://hvinder.github.io/ng-calculator/polyfills-es2015.79e43f7af93a762d3187.js": "e4be224553c5002677d7b21a2514f68bd4d9459d",
     "https://hvinder.github.io/ng-calculator/polyfills-es5.406b580a8466633afc79.js": "f3ee8aaa8b27efbd1a763384ce913033604b1c0c",
     "https://hvinder.github.io/ng-calculator/runtime-es2015.3f3fc55b246d2a4b8254.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
