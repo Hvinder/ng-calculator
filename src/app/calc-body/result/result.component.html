@@ -1,12 +1,15 @@
 <div class="result row">
   <div class="history">
+    <!-- addNote(history.timestamp) -->
+    <!-- bringForward(history.timestamp) -->
     <div
       class="history-item"
-      *ngFor="let savedExpression of savedExpressions; let i = index"
-      [ngStyle]="{ bottom: i * 20 + 'px' }"
+      *ngFor="let history of savedHistory.slice().reverse(); let i = index"
+      [ngStyle]="{ bottom: i * 30 + 'px' }"
+      (click)="addNote(history.timestamp)"
     >
       <h4>
-        {{ savedExpression }}
+        {{ history.note }} {{ history.expression }} = {{ history.result }}
       </h4>
     </div>
   </div>
